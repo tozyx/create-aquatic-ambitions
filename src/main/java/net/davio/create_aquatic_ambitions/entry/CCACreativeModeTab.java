@@ -1,12 +1,15 @@
 package net.davio.create_aquatic_ambitions.entry;
 
 import com.simibubi.create.foundation.utility.Components;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 
 public class CCACreativeModeTab {
 
@@ -22,6 +25,7 @@ public class CCACreativeModeTab {
 			entries.accept(CCAItems.PRISMARINE_ROD.get());
 			entries.accept(CCAItems.FLINT_SHARD.get());
 			entries.accept(CCAItems.POLISHED_QUARTZ_TINE.get());
+			entries.accept(CCABlocks.PRISMARINE_ALLOY_BLOCK);
 
 		}
 	}

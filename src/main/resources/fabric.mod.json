@@ -22,6 +22,9 @@
     ],
     "jei_mod_plugin": [
       "net.davio.create_aquatic_ambitions.compat.jei.CCAJEI"
+    ],
+    "emi": [
+      "net.davio.create_aquatic_ambitions.compat.EMI.CCAEmiPlugin"
     ]
   },
   "mixins": [

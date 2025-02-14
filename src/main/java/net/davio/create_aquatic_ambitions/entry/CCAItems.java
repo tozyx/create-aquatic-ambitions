@@ -1,6 +1,7 @@
 package net.davio.create_aquatic_ambitions.entry;
 
 import com.tterrag.registrate.util.entry.ItemEntry;
+import net.minecraft.core.Registry;
 import net.minecraft.world.item.Item;
 import static net.davio.create_aquatic_ambitions.CreateAquaticAmbitions.REGISTRATE;
 
