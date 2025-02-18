@@ -3,12 +3,13 @@
   "id": "create_aquatic_ambitions",
   "version": "${version}",
   "name": "Create Aquatic Ambitions",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "This is a Create Mod Add On that lets you automate prismarine without guardians farms, age your copper faster and revive dead coral. Made by DaviO. Forked by 冰焰",
   "authors": [
-    "Me!"
+    "Made by DaviO. Forked by 冰焰. "
   ],
   "contact": {
-    "sources": "https://github.com/davioliva16/create-aquatic-ambitions"
+    "homepage": "https://github.com/davioliva16/create-aquatic-ambitions",
+    "source": "https://github.com/tozyx/create-aquatic-ambitions"
   },
   "license": "MIT",
   "icon": "icon.png",
@@ -33,7 +34,7 @@
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
     "fabric-api": ">=${fabric_api_version}",
-    "create": "${create_version}",
+    "create": ">=${create_version}",
     "minecraft": "${minecraft_version}"
   }
 }
