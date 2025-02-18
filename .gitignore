@@ -8,6 +8,9 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/**.xml
+.idea/runConfigurations
+!.idea/logo.png
 
 # AWS User-specific
 .idea/**/aws.xml
@@ -140,10 +143,10 @@ build/
 *.swp
 *~
 
-.idea
 *.iml
 *.ipr
 .shelf
 
 .settings/
-bin/
+bin/!/.idea/logo.png
+run
