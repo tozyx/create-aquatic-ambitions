@@ -1,34 +1,23 @@
-# Create Fabric Addon Template
+**English** | [简中](README_zh_cn.md) 
+<p align="center"><img src="./src/main/resources/logo.png" alt="Logo" width="801"></p>  
+<h1 align="center">Create: Aquatic Ambitions  <br>
+<a href="https://fabricmc.net/"><img  
+        src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_64h.png"  
+        alt="Available on Fabric"  
+        width="200"  
+    ></a>  
+<a href="https://forums.minecraftforge.net/"><img  
+        src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/forge_64h.png"  
+        alt="Available on Forge"  
+        width="200"  
+    ></a>
+</h1>    
 
-This template mod comes pre-configured for developing an addon mod for Create on Fabric.
+***
+This is a Create Mod Add On that lets you automate prismarine without guardians farms, age your copper faster and revive
+dead coral.
 
-
-## Setup
-
-This template is an extension of the base [Fabric Example Mod](https://github.com/FabricMC/fabric-example-mod).
-Setup is mostly the same.
-
-Additionally, set `recipe_viewer` in [gradle.properties](gradle.properties). Remember to remove unused
-example code. Make sure versions are up-to-date.
-
-When you publish your mod, you should use jars provided by GitHub Actions. These jars will have
-build number metadata and will be compressed by the Machete plugin.
-
-## Features
-- Access to Create and all of its dependencies
-- Mojang Mappings base, with Quilt Mappings and Parchment providing Javadoc and parameters
-- VineFlower decompiler for high quality Minecraft sources: `gradlew genSourcesWithVineflower`
-- GitHub Actions automatic build workflow
-- Machete Gradle plugin to shrink jar file sizes
-- Developer QOL: Mod Menu, LazyDFU, recipe viewers
-
-## Other Templates
-- [Multi-loader template](https://github.com/Fabricators-of-Create/create-multiloader-addon-template)
-- [Forge-only template](https://github.com/kotakotik22/CreateAddonTemplate)
-
-## Help
-Questions? Join us in the #devchat channel of the [Create Discord](https://discord.com/invite/hmaD7Se).
-
-## License
-
-This template is available under the CC0 license. Feel free to do as you wish with it.
+Made by [DaviO](https://github.com/davioliva16). Forked by [冰焰(tozyx)](https://github.com/tozyx)
+***
+This mod requires create 5.1.e or newer to work correctly  
+JEI is recommended but not required! /EMI is recommended but not required!
