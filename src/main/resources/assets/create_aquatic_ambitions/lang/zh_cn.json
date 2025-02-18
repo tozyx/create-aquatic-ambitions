@@ -1,0 +1,11 @@
+{
+  "itemGroup.create_aquatic_ambitions": "机械动力：海洋宏图",
+  "create.recipe.aquatic_ambitions.fan_channeling": "批量潮涌",
+  "create.recipe.fan_channeling.fan": "在鼓风机后放置激活潮涌核心",
+  "item.create_aquatic_ambitions.prismarine_alloy": "海晶合金",
+  "item.create_aquatic_ambitions.prismarine_rod": "海晶棒",
+  "item.create_aquatic_ambitions.flint_shard": "燧石碎片",
+  "item.create_aquatic_ambitions.polished_quartz_tine": "磨制石英尖",
+  "block.create_aquatic_ambitions.prismarine_alloy_block": "海晶合金块",
+  "emi.category.create_aquatic_ambitions.channeling": "批量潮涌"
+}
