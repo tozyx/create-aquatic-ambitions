@@ -5,11 +5,12 @@
   "name": "Create Aquatic Ambitions",
   "description": "This is a Create Mod Add On that lets you automate prismarine without guardians farms, age your copper faster and revive dead coral. Made by DaviO. Forked by 冰焰",
   "authors": [
-    "Made by DaviO. Forked by 冰焰. "
+    "Made by DaviO",
+    "Forked by 冰焰"
   ],
   "contact": {
     "homepage": "https://github.com/davioliva16/create-aquatic-ambitions",
-    "source": "https://github.com/tozyx/create-aquatic-ambitions"
+    "sources": "https://github.com/tozyx/create-aquatic-ambitions"
   },
   "license": "MIT",
   "icon": "icon.png",
