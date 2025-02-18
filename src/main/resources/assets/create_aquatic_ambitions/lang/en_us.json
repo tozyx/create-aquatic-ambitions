@@ -7,5 +7,6 @@
   "item.create_aquatic_ambitions.flint_shard": "Flint Shard",
   "item.create_aquatic_ambitions.polished_quartz_tine": "Polished Quartz Tine",
   "block.create_aquatic_ambitions.prismarine_alloy_block": "Prismarine Alloy Block",
-  "emi.category.create_aquatic_ambitions.channeling": "Conduit Channeling"
+  "emi.category.create_aquatic_ambitions.channeling": "Conduit Channeling",
+  "tag.fluid.create_aquatic_ambitions.channeling_fluid": "Channeling fluid"
 }
