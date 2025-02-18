@@ -1,5 +1,5 @@
 [English](README.md) | **简中**
-<p align="center"><img src="./src/main/resources/logo.png" alt="Logo" width="801"></p>  
+<p align="center"><img src="./.idea/logo.png" alt="Logo" width="801"></p>  
 <h1 align="center">机械动力：海洋宏图  <br>
 <a href="https://fabricmc.net/"><img  
         src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_64h.png"  
