@@ -2,8 +2,8 @@
 //file:noinspection GroovyAccessibility
 //file:noinspection GradlePackageVersionRange
 plugins {
-    id "fabric-loom" version "1.7.+"
-    id "io.github.p03w.machete" version "1.+" // automatic jar compressing on build
+    id "fabric-loom" version "1.9.+"
+//    id "io.github.p03w.machete" version "1.+" // automatic jar compressing on build
     id "maven-publish"
 }
 
@@ -51,9 +51,9 @@ dependencies {
     // Setup
     minecraft("com.mojang:minecraft:${minecraft_version}")
     mappings(loom.layered() {
-        officialMojangMappings() { nameSyntheticMembers = false }
         parchment("org.parchmentmc.data:parchment-${minecraft_version}:${parchment_version}@zip")
-// 		mappings("org.quiltmc:quilt-mappings:${minecraft_version}+build.${qm_version}:intermediary-v2")
+//        mappings("org.quiltmc:quilt-mappings:${minecraft_version}+build.${qm_version}:intermediary-v2")
+        officialMojangMappings() { nameSyntheticMembers = false }
     })
     modImplementation("net.fabricmc:fabric-loader:${fabric_loader_version}")
 
@@ -99,10 +99,10 @@ processResources {
     }
 }
 
-machete {
-    // disable machete locally for faster builds
-    enabled = buildNumber != null
-}
+//machete {
+//    // disable machete locally for faster builds
+//    enabled = buildNumber != null
+//}
 
 tasks.withType(JavaCompile).configureEach {
     it.options.release = Integer.parseInt(sourceCompatibility)
